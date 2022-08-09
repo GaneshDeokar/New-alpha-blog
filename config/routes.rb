@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  root 'home#index'
-  resources :articles,only: [:show,:index]
+  root 'home#home'
+  resources :articles,only: [:show,:index,:new,:create,:edit,:update,:destroy]
+  resources :articles
   # get 'home/index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

@@ -1,0 +1,38 @@
+{
+  "name": "alpha-blog",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaneshDeokar/New-alpha-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaneshDeokar/New-alpha-blog/issues"
+  },
+  "homepage": "https://github.com/GaneshDeokar/New-alpha-blog#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "@rails/webpacker": "5.4.3",
+    "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.9.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "sass": "^1.54.3",
+    "webpack": "4.46.0",
+    "webpack-cli": "3.3.12"
+  }
+}
